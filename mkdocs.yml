@@ -1,0 +1,13 @@
+site_name: coreutil
+nav:
+  - algorithm: algorithm.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.superfences
+theme:
+  name: material
