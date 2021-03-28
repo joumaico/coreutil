@@ -1,6 +1,10 @@
 site_name: coreutil
 nav:
-  - algorithm: algorithm.md
+  - Quickstart:
+    - Installation : index.md
+  - Modules:
+    - coreutil.algorithm: algorithm.md
+    - coreutil.card: card.md
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -11,3 +15,8 @@ markdown_extensions:
   - pymdownx.superfences
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+extra_css:
+  - stylesheets/extra.css
