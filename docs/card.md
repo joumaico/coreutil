@@ -1,4 +1,4 @@
-## `card.`**`credit`**`(number)`
+## *class* `card.`**`credit`**`(number)` { #card.credit data-toc-label='card.credit' }
 
 !!! abstract "This tool checks the validity and network of a credit card number."
 
@@ -8,7 +8,7 @@
     card = coreutil.card.credit('378282246310005')
     ```
 
-### `credit.`**`isvalid`**`()`
+### `credit.`**`isvalid`**`()` { #credit.isvalid data-toc-label='credit.isvalid' }
 
 !!! abstract "Check card number against Luhn Algorithm to see the validity."
 
@@ -21,7 +21,7 @@
     True
     ```
 
-### `credit.`**`network`**`()`
+### `credit.`**`network`**`()` { #credit.network data-toc-label='credit.network' }
 
 !!! abstract "Determine the credit card network of a card number."
 

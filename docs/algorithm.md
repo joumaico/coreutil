@@ -1,4 +1,4 @@
-## `algorithm.`**`luhn`**`(number)`
+## *function* `algorithm.`**`luhn`**`(number)` { #algorithm.luhn data-toc-label='algorithm.luhn' }
 
 !!! abstract "Checksum formula to validate a variety of identification numbers."
 

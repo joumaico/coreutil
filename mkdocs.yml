@@ -7,6 +7,7 @@ nav:
     - coreutil.card: card.md
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
